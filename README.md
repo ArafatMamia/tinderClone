@@ -17,7 +17,7 @@
 - Express
 - Mongoose
 
-# ![tinder](./tinder-clone/public/Frontend.png)
+# ![tinder](./tinder-frontend/public/Frontend.png)
 
 # Steps to use it!!
 
