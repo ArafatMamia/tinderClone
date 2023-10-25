@@ -4,8 +4,12 @@
   "description": "package for both frontend and backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd tinder-backend && npm start\" \"cd tinder-frontend && npm run dev \""
   },
   "author": "Arafat Mamia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
